@@ -1,5 +1,9 @@
 # Changelog
 
+## \[0.15.0]
+
+- [`0d368bb`](https://www.github.com/tauri-apps/muda/commit/0d368bb32728a104f0d6ad100193b0212495dd64) ([#220](https://www.github.com/tauri-apps/muda/pull/220) by [@madsmtm](https://www.github.com/tauri-apps/muda/../../madsmtm)) **Breaking Change** Changed the type of the pointer passed in `show_context_menu_for_nsview` to `c_void`, and make the method `unsafe`.
+
 ## \[0.14.1]
 
 - [`07ca638`](https://www.github.com/tauri-apps/muda/commit/07ca6382bc1ae08984c21034b8033cee3eb147c7) ([#213](https://www.github.com/tauri-apps/muda/pull/213)) Fix handling the separator of `CARGO_PKG_AUTHORS` environment variable value in `from_cargo_metadata` macro.
